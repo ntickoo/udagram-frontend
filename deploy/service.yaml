@@ -12,4 +12,3 @@ spec:
     targetPort: 8100
   selector:
     app: frontend
-    
