@@ -5,7 +5,7 @@ metadata:
   labels:
     app: frontend
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: frontend
@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: tickoon/udagram-frontend:v1
+        image: tickoon/udagram-frontend:v2
         imagePullPolicy: Always
         resources:
           requests:
